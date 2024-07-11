@@ -1,6 +1,6 @@
 <template>
-  <div class="login">
-    <h2>Login Admin</h2>
+  <div class="login container mt-5 bg-lightblue p-4 rounded">
+    <h2 class="mb-4">Login Admin</h2>
     <form @submit.prevent="login">
       <div class="mb-3">
         <label class="form-label">Username</label>
@@ -44,5 +44,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add any required styles here */
+.bg-lightblue {
+  background-color: #e3f2fd;
+}
 </style>

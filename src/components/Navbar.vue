@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">PT AMERTA</a>
       <button
@@ -37,5 +37,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add any required styles here */
+/* No additional styles needed, using Bootstrap's default */
 </style>

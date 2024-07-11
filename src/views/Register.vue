@@ -1,6 +1,6 @@
 <template>
-  <div class="container mt-5">
-    <h2>Form Pendaftaran</h2>
+  <div class="container mt-5 bg-lightblue p-4 rounded">
+    <h2 class="mb-4">Form Pendaftaran</h2>
     <form @submit.prevent="submitForm">
       <div class="mb-3">
         <label class="form-label">Nama</label>
@@ -68,5 +68,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add any required styles here */
+.bg-lightblue {
+  background-color: #e3f2fd;
+}
 </style>
